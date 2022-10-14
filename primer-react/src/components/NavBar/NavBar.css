@@ -1,22 +1,43 @@
-.navegation{
+.navegacion{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 10px;
-    border-bottom: 2px solid;
-}
-.list{
+    padding: 10px;
+    border: 2px solid;
     list-style: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.list li {
-    margin: 10px;
 }
 
 .logo{
-    height: 70px;
-    width: 70px;
+    height: 100px;
+    width: 100px;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    list-style: none;
+    padding: 10px;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: space-around;
+}
+
+.list a{
+    text-decoration: none;
+    margin: 10px;
+    color: blueviolet;
+    justify-content: space-between;
+
+}
+
+.claseActiva{
+    color: green;
+}
+
+.claseInactiva{
+    color: red;
 }
